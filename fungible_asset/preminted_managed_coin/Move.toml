@@ -1,0 +1,11 @@
+[package]
+name = "ManagedFungibleToken"
+version = "0.0.0"
+
+[addresses]
+aptos_framework = "0x1"
+example_addr = "0xf4fe7cdd62b69d9735aec3d9426895b1b25607dc391db961a5eae87e0dad7f07"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "a1cda42dfe78f4c7ed13eec6b49604a21e2a0f2c" }
+ManagedFungibleAsset = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/move-examples/fungible_asset/managed_fungible_asset", rev = "a1cda42dfe78f4c7ed13eec6b49604a21e2a0f2c" }
